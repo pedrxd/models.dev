@@ -1,4 +1,4 @@
-base_model = "mistral/devstral-2512"
+base_model = "mistral/devstral-2"
 description = "Devstral 2 is a state-of-the-art open-source model by Mistral AI specializing in agentic coding. It is a 123B-parameter dense transformer model supporting a 256K context window. Devstral 2 supports exploring..."
 attachment = true
 structured_output = true

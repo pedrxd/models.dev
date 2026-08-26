@@ -18,7 +18,7 @@
 #   https://www.infomaniak.com/en/hosting/ai-services/prices
 #   https://developer.infomaniak.com/docs/api/post/2/ai/{product_id}/openai/v1/chat/completions
 #   https://huggingface.co/mistralai/Mistral-Small-4-119B-2603 (config.json "model_type": "mistral3")
-base_model = "mistral/mistral-small-2603"
+base_model = "mistral/mistral-small-4"
 last_updated = "2026-08-01"
 reasoning_options = []
 interleaved = true

@@ -1,5 +1,5 @@
 name = "Devstral-2-123B-Instruct-2512-int4-AutoRound"
-base_model = "mistral/devstral-2512"
+base_model = "mistral/devstral-2"
 [limit]
 context = 128_000
 output = 128_000

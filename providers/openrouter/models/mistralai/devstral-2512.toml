@@ -1,7 +1,4 @@
-base_model = "mistral/devstral-2512"
-description = "Mistral coding agent model for repository tasks and software engineering workflows"
-attachment = true
-structured_output = true
+base_model = "mistral/devstral-2"
 
 [cost]
 input = 0.44

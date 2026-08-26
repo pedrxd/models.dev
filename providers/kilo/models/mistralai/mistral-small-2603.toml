@@ -1,4 +1,4 @@
-base_model = "mistral/mistral-small-2603"
+base_model = "mistral/mistral-small-4"
 description = "Efficient Mistral model for fast chat, extraction, and production assistants"
 structured_output = true
 

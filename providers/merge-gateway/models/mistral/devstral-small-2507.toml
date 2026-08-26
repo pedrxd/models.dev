@@ -1,4 +1,4 @@
-base_model = "mistral/devstral-small-2507"
+base_model = "mistral/devstral-small"
 status = "deprecated"
 
 [cost]

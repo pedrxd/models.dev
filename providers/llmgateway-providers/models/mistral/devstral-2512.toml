@@ -1,4 +1,4 @@
-base_model = "mistral/devstral-2512"
+base_model = "mistral/devstral-2"
 name = "Devstral 2 (Mistral AI)"
 tool_call = false
 structured_output = false

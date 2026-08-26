@@ -1,14 +1,4 @@
-name = "Mistral Small 3.1"
-description = "Efficient Mistral model for fast chat, extraction, and production assistants"
-family = "mistral-small"
-release_date = "2025-03-01"
-last_updated = "2025-03-01"
-attachment = true
-reasoning = false
-temperature = true
-knowledge = "2024-09"
-tool_call = true
-open_weights = false
+base_model = "mistral/mistral-small-3.1"
 
 [cost]
 input = 0.10
@@ -17,7 +7,3 @@ output = 0.30
 [limit]
 context = 128_000
 output = 32_768
-
-[modalities]
-input = ["text", "image"]
-output = ["text"]

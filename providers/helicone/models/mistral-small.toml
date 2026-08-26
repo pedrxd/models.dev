@@ -1,4 +1,4 @@
-base_model = "mistral/mistral-small-2506"
+base_model = "mistral/mistral-small-3.2"
 
 [cost]
 input = 0.075

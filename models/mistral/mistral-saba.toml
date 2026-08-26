@@ -1,0 +1,20 @@
+name = "Saba"
+description = "Mistral model for multilingual chat, reasoning, and tool-assisted workflows"
+family = "mistral"
+release_date = "2025-02-17"
+last_updated = "2025-02-17"
+attachment = true
+reasoning = false
+temperature = true
+tool_call = true
+structured_output = true
+knowledge = "2024-09-30"
+open_weights = false
+
+[limit]
+context = 32_768
+output = 32_768
+
+[modalities]
+input = ["text"]
+output = ["text"]

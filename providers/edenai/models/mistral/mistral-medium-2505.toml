@@ -1,4 +1,4 @@
-base_model = "mistral/mistral-medium-2505"
+base_model = "mistral/mistral-medium-3"
 structured_output = true
 
 [cost]

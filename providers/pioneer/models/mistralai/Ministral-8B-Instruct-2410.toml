@@ -1,4 +1,4 @@
-base_model = "mistral/ministral-8b-instruct-2410"
+base_model = "mistral/ministral-8b-instruct"
 
 [cost]
 input = 0.15

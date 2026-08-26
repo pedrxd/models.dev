@@ -1,5 +1,4 @@
 base_model = "mistral/mistral-nemo"
-name = "Mistral Nemo Instruct 2407 TEE"
 tool_call = false
 
 [cost]

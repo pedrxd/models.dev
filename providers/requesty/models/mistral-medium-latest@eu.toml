@@ -1,4 +1,4 @@
-base_model = "mistral/mistral-medium-latest"
+base_model = "mistral/mistral-medium-3-5"
 name = "Mistral Medium (latest) (EU)"
 reasoning = false
 

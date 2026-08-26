@@ -1,5 +1,4 @@
-base_model = "mistral/mistral-small-2603"
-structured_output = true
+base_model = "mistral/mistral-small-4"
 
 [[reasoning_options]]
 type = "effort"

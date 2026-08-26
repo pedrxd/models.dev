@@ -1,4 +1,4 @@
-base_model = "mistral/mistral-small-2603"
+base_model = "mistral/mistral-small-4"
 name = "Mistral Small 4 (EU)"
 structured_output = true
 

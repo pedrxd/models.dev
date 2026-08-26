@@ -1,4 +1,4 @@
-base_model = "mistral/mistral-small-2603"
+base_model = "mistral/mistral-small-4"
 reasoning = false
 structured_output = true
 
