@@ -1,14 +1,9 @@
 # Included in subscription
+base_model = "mistral/mistral-small-2603"
+
 name = "Mistral Small 4 119B"
 description = "Efficient Mistral model for fast chat, extraction, and production assistants"
-family = "mistral-small"
-release_date = "2026-03-16"
-last_updated = "2026-03-16"
-attachment = true
-reasoning = true
-tool_call = true
 structured_output = true
-open_weights = true
 
 [[reasoning_options]]
 type = "toggle"
@@ -22,7 +17,3 @@ cache_read = 0.2
 context = 262_144
 input = 262_144
 output = 16_384
-
-[modalities]
-input = ["text", "image"]
-output = ["text"]

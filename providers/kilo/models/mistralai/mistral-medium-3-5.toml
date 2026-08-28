@@ -1,13 +1,8 @@
+base_model = "mistral/mistral-medium-2604"
 name = "Mistral: Mistral Medium 3.5"
 description = "Mistral model for multilingual chat, reasoning, and tool-assisted workflows"
-family = "mistral-medium"
 release_date = "2026-04-30"
 last_updated = "2026-04-30"
-attachment = true
-reasoning = true
-temperature = true
-tool_call = true
-structured_output = true
 open_weights = false
 
 [[reasoning_options]]

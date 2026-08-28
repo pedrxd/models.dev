@@ -1,13 +1,9 @@
+base_model = "mistral/mistral-medium-2508"
+
 name = "mistral-medium-2508"
 description = "Mistral Medium 2508 is a frontier-class multimodal LLM with a 128,000 token context window, optimized for reasoning, coding, and multimodal tasks."
-release_date = "2024-08-07"
-last_updated = "2024-08-07"
-attachment = true
 reasoning = true
 temperature = false
-tool_call = true
-structured_output = true
-open_weights = false
 reasoning_options = []
 
 [cost]
@@ -18,7 +14,3 @@ cache_read = 0.045
 [limit]
 context = 128_000
 output = 128_000
-
-[modalities]
-input = ["text", "image"]
-output = ["text"]

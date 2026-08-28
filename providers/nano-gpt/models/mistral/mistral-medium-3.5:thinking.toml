@@ -1,14 +1,8 @@
 # Not included in subscription
+base_model = "mistral/mistral-medium-2604"
+
 name = "Mistral Medium 3.5 Thinking"
 description = "Mistral model for multilingual chat, reasoning, and tool-assisted workflows"
-family = "mistral-medium"
-release_date = "2026-04-30"
-last_updated = "2026-04-30"
-attachment = true
-reasoning = true
-tool_call = true
-structured_output = true
-open_weights = true
 
 [[reasoning_options]]
 type = "effort"
@@ -23,7 +17,3 @@ cache_read = 0.75
 context = 256_000
 input = 256_000
 output = 32_768
-
-[modalities]
-input = ["text", "image"]
-output = ["text"]

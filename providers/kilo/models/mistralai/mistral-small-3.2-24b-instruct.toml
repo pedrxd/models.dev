@@ -1,12 +1,6 @@
+base_model = "mistral/mistral-small-2506"
 name = "Mistral: Mistral Small 3.2 24B"
-description = "Efficient Mistral model for fast chat, extraction, and production assistants"
-family = "mistral-small"
-release_date = "2025-06-20"
-last_updated = "2025-06-20"
 attachment = true
-reasoning = false
-temperature = true
-tool_call = true
 structured_output = true
 open_weights = false
 
@@ -14,11 +8,3 @@ open_weights = false
 input = 0.11
 output = 0.33
 cache_read = 0.011
-
-[limit]
-context = 128_000
-output = 16_384
-
-[modalities]
-input = ["image", "text"]
-output = ["text"]

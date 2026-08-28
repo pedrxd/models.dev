@@ -1,8 +1,8 @@
+base_model = "mistral/magistral-small-2506"
 name = "Magistral Small 2506"
 description = "Mistral reasoning model for transparent analysis, math, and complex decisions"
 release_date = "2025-09-25"
 last_updated = "2025-09-25"
-attachment = false
 reasoning = false
 tool_call = false
 structured_output = false
@@ -16,7 +16,3 @@ output = 0.0
 context = 32_768
 input = 32_768
 output = 32_768
-
-[modalities]
-input = ["text"]
-output = ["text"]
